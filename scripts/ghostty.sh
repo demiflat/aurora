@@ -1,13 +1,2 @@
-#!/bin/bash
-sudo tee -a /etc/yum.repos.d/ghostty.repo << 'EOF'
-[copr:copr.fedorainfracloud.org:pgdev:ghostty]
-name=Copr repo for Ghostty owned by pgdev
-baseurl=https://download.copr.fedorainfracloud.org/results/pgdev/ghostty/fedora-$releasever-$basearch/
-type=rpm-md
-skip_if_unavailable=True
-gpgcheck=1
-gpgkey=https://download.copr.fedorainfracloud.org/results/pgdev/ghostty/pubkey.gpg
-repo_gpgcheck=0
-enabled=1
-enabled_metadata=1
-EOF
+. /etc/os-release
+curl -fsSL "https://copr.fedorainfracloud.org/coprs/scottames/ghostty/repo/fedora-${VERSION_ID}/scottames-ghostty-fedora-${VERSION_ID}.repo" | sudo tee /etc/yum.repos.d/_copr:copr.fedorainfracloud.org:scottames:ghostty.repo > /dev/null
