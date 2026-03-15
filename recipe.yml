@@ -109,6 +109,7 @@ rpms:
   - ltunify
   - lua
   - luajit
+  - lutris
   - make
   - mako
   - mkosi
