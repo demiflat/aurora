@@ -147,6 +147,7 @@ rpms:
   - tmux
   - transmission
   - tumbler
+  - umu-launcher
   - unzip
   # - vdpauinfo
   #- vim-enhanced
@@ -158,6 +159,7 @@ rpms:
   # - vorbisgain
   # - vlc
   # - vlc-extras
+  - wine
   - wireguard-tools
   - w3m
   - waybar
