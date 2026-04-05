@@ -58,6 +58,7 @@ rpms:
   - et
   - diffuse
   - dmenu
+  - dolphin-emu
   - dos2unix
   - ffmpeg
   - fido2-tools
@@ -89,6 +90,7 @@ rpms:
   - helvum
   - hdparm
   - htop
+  - iftop
   - iotop-c
   - input-remapper
   - iperf3
