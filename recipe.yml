@@ -58,7 +58,6 @@ rpms:
   - et
   - diffuse
   - dmenu
-  - dolphin-emu
   - dos2unix
   - ffmpeg
   - fido2-tools
