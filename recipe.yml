@@ -116,6 +116,7 @@ rpms:
   - mkosi
   - minicom
   - mpv
+  - muse
   - neovim
   - net-tools
   - NetworkManager-tui
