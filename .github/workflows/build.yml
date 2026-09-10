@@ -120,7 +120,7 @@ jobs:
       # Build image using Buildah action
       - name: Build Image
         id: build_image
-        uses: redhat-actions/buildah-build@v3
+        uses: redhat-actions/buildah-build@v3.1.0
         with:
           containerfiles: |
             ./Containerfile
